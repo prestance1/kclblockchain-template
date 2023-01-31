@@ -1,6 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 
-const ALCHEMY_API_KEY = "4SxwlzsO8fyePdUacYIKmob0A0wNk548"
+const ALCHEMY_API_KEY = ""
 
 const GOERLI_PRIVATE_KEY = ""
 

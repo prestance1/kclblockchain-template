@@ -4,7 +4,10 @@
     "task3": "npx hardhat test --grep \"Task 3\"",
     "task2": "npx hardhat test --grep \"Task 2\"",
     "task1": "npx hardhat test --grep \"Task 1\"",
-    "win": " npx hardhat test"
+    "win": " npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network goerli",
+    "client": "npm run dev --prefix ./client/twitter",
+    "wallet": "node generateKeypair.js"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",
